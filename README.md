@@ -62,3 +62,11 @@ src/
 - Facilidade de manutenção
 - Maior escalabilidade
 - Melhor organização do código
+
+## Como Executar
+
+npm install
+
+npx tsc
+
+node dist/index.js
