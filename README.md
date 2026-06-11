@@ -56,3 +56,9 @@ src/
 ├── pagamentos
 └── index.ts
 ```
+## Benefícios do SOLID
+
+- Redução do acoplamento
+- Facilidade de manutenção
+- Maior escalabilidade
+- Melhor organização do código
