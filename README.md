@@ -90,3 +90,9 @@ Dessa forma cada implementação depende apenas dos métodos que realmente utili
 O sistema de cobrança passou a depender da abstração ICobranca em vez de depender diretamente da implementação Stripe.
 
 Isso permite trocar facilmente a forma de pagamento por outras implementações, como Pix ou PayPal.
+
+## LSP - Liskov Substitution Principle
+
+No código legado, um modelo focado em texto era obrigado a implementar métodos de imagem e áudio, gerando exceções em tempo de execução.
+
+Após a refatoração, cada modelo implementa apenas as interfaces necessárias para sua função, garantindo que qualquer implementação possa ser utilizada sem quebrar o comportamento esperado.
