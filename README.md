@@ -47,3 +47,12 @@ As responsabilidades podem ser segregadas em interfaces específicas para cada t
 - LSP
 - ISP
 - DIP
+
+## Estrutura do Projeto
+
+```text
+src/
+├── ia
+├── pagamentos
+└── index.ts
+```
