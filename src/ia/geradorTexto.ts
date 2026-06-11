@@ -1,5 +1,5 @@
-export class GeradorTexto {
+class GeradorTexto {
     gerar() {
-        console.log("Gerando texto com IA...");
+        console.log("Gerando texto...");
     }
 }

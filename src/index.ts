@@ -1,18 +1,16 @@
+// Esta classe possui múltiplas responsabilidades
+// e será refatorada para seguir o princípio SRP.
 class OmniAI {
     gerarTexto() {
-        console.log("Gerando texto com IA...");
+        console.log("Gerando texto...");
     }
 
     gerarImagem() {
-        console.log("Gerando imagem com IA...");
+        console.log("Gerando imagem...");
     }
 
     cobrarPix() {
-        console.log("Pagamento realizado via PIX");
-    } 
-
-    cobrarCartao() {
-        console.log("Pagamento realizado via Cartão");
+        console.log("Pagamento PIX");
     }
 }
 
