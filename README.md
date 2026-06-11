@@ -33,3 +33,17 @@ Exemplo:
 ## Princípio ISP
 
 As responsabilidades podem ser segregadas em interfaces específicas para cada tipo de conteúdo.
+
+## Tecnologias
+
+- TypeScript
+- Git
+- GitHub
+
+## Princípios Aplicados
+
+- SRP
+- OCP
+- LSP
+- ISP
+- DIP
