@@ -29,3 +29,7 @@ Exemplo:
 - GeradorImagem
 - GeradorAudio
 - GeradorVideo
+
+## Princípio ISP
+
+As responsabilidades podem ser segregadas em interfaces específicas para cada tipo de conteúdo.
