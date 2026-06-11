@@ -70,3 +70,8 @@ npm install
 npx tsc
 
 node dist/index.js
+## SRP - Single Responsibility Principle
+
+Foi criado o ServicoCobranca para separar a responsabilidade de cobrança da lógica de geração de conteúdo.
+
+Cada classe possui agora uma única responsabilidade.
