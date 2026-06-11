@@ -84,3 +84,9 @@ As interfaces foram separadas em contratos específicos:
 - IGeradorAudio
 
 Dessa forma cada implementação depende apenas dos métodos que realmente utiliza.
+
+## DIP - Dependency Inversion Principle
+
+O sistema de cobrança passou a depender da abstração ICobranca em vez de depender diretamente da implementação Stripe.
+
+Isso permite trocar facilmente a forma de pagamento por outras implementações, como Pix ou PayPal.
