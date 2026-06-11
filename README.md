@@ -18,3 +18,14 @@ O projeto foi refatorado para que cada classe possua apenas uma responsabilidade
 - GeradorAudio: responsável apenas pela geração de áudio.
 - PagamentoPix: responsável apenas pelo pagamento via PIX.
 - PagamentoCartao: responsável apenas pelo pagamento via cartão.
+
+## Princípio OCP (Open Closed Principle)
+
+O sistema permite adicionar novos tipos de geração de conteúdo sem modificar as classes existentes.
+
+Exemplo:
+
+- GeradorTexto
+- GeradorImagem
+- GeradorAudio
+- GeradorVideo
