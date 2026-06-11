@@ -75,3 +75,12 @@ node dist/index.js
 Foi criado o ServicoCobranca para separar a responsabilidade de cobrança da lógica de geração de conteúdo.
 
 Cada classe possui agora uma única responsabilidade.
+## ISP - Interface Segregation Principle
+
+As interfaces foram separadas em contratos específicos:
+
+- IGeradorTexto
+- IGeradorImagem
+- IGeradorAudio
+
+Dessa forma cada implementação depende apenas dos métodos que realmente utiliza.
